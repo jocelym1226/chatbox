@@ -14,9 +14,9 @@ function randomstring()
 //echo 'randomstring';
 	header("Content-Type: text/html; charset=utf-8");
 	mysql_connect("210.240.194.16","ADT105111S","ADT105111S");
-	mysql_select_db("lottery");  //連結資料庫
+	mysql_select_db("adt105111s");  //連結資料庫
 	//mysql_query("set names utf-8");
-	$sqldata = mysql_query("SELECT * FROM 資料表名稱");
+	$sqldata = mysql_query("SELECT * FROM lottery");
 
 
 	//抓資料
